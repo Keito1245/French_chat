@@ -1,0 +1,5 @@
+Python
+pycache/ *.pyc venv/ *.py[co]
+
+Environment files
+.env
