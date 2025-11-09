@@ -1,13 +1,5 @@
 French Immersion Chat (Python + JS Project)
 
-This project converts the single-file HTML chatbot into a full-stack web application with a Python (Flask) backend and a JavaScript frontend.
-
-This architecture is more secure and robust because:
-
-API Key is Secure: Your Gemini API key is stored on the server in a .env file and is never exposed to the user's browser.
-
-Prompt Logic is Hidden: The core "system prompts" that define the AI's persona are on the server, preventing users from easily viewing or modifying them.
-
 Project Structure
 
 french-chat-project/
@@ -24,12 +16,6 @@ french-chat-project/
 
 
 How to Run
-
-Create Project Folder:
-Create a new folder (e.g., french-chat-project) and place all the files from this project into their correct locations as shown in the structure above.
-
-Set up Python Environment:
-It's highly recommended to use a virtual environment.
 
 # Navigate into your project folder
 cd french-chat-project
